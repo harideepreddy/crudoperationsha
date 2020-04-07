@@ -1,0 +1,19 @@
+<!-- Add post here:<br><input type = "text" class = "form-control" #temp (keyup.enter)="createPost(temp)">
+<br>
+Delete and Update posts here:<br><br>
+<ul class = "list-group">
+  <li class = "list-group-items"
+  *ngFor = "let post of posts">
+  <button class = "btn btn-info" (click) = "updateInfo(post)">Update</button>
+  <button class = "btn btn-info" (click) = "deleteInfo(post)">Delete</button>
+{{post.title}}
+</li>
+</ul> -->
+
+<!-- my task -->
+
+<ul class = "list-group">
+  <li class = "list-group-items">
+{{posts.msg}}
+</li>
+</ul>
